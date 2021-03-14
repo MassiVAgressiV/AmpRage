@@ -13,6 +13,7 @@ body {
   background-blend-mode: multiply;
   height: 14em;
   color: ivory;
+  position: relative;
 }
 
 .main-header .logo {
@@ -25,6 +26,14 @@ body {
 
 .main-header .logo span {
   color: darkred;
+}
+
+.main-header img {
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin: .2em;
+  display: none;
 }
 
 .main-nav {
