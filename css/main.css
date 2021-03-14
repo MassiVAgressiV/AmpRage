@@ -1,0 +1,186 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=DotGothic16&display=swap");
+body {
+  margin: 0px;
+  font-family: Roboto;
+}
+
+.main-header {
+  background-image: url("/images/header-background.jpg");
+  background-size: cover;
+  background-color: rgba(0, 0, 0, 0.6);
+  background-blend-mode: multiply;
+  height: 14em;
+  color: ivory;
+}
+
+.main-header .logo {
+  margin: 0;
+  text-align: center;
+  font-size: 4em;
+  font-family: 'Bebas Neue';
+  margin: .7em;
+}
+
+.main-header .logo span {
+  color: darkred;
+}
+
+.main-nav {
+  text-align: center;
+  font-size: 1.1em;
+  font-weight: lighter;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.main-nav ul {
+  margin-top: 0;
+  padding-top: 0.5em;
+  margin-bottom: 0.5em;
+}
+
+.main-nav li {
+  display: inline-block;
+  padding: 0 5%;
+}
+
+.main-nav a {
+  padding: .5em;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: ivory;
+}
+
+.main-nav a:hover {
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+.content-section {
+  margin: 1em;
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.container {
+  max-width: 900px;
+  margin: auto;
+}
+
+.section-header {
+  text-align: center;
+}
+
+.menu-icon {
+  height: 30px;
+}
+
+.event-row {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.6);
+  padding-bottom: .5em;
+  margin-bottom: .5em;
+}
+
+.event-row:last-child {
+  border-bottom: none;
+}
+
+.main-footer {
+  border-top: 1px solid rgba(0, 0, 0, 0.6);
+  text-align: center;
+  padding-top: .5em;
+}
+
+.event-item {
+  padding-right: .5em;
+  display: inline-block;
+}
+
+.event-date {
+  color: #555;
+  font-weight: bold;
+  width: 11%;
+}
+
+.event-venue {
+  width: 24%;
+}
+
+.event-name {
+  width: 42%;
+}
+
+.event-button {
+  max-width: 19%;
+}
+
+.btn-primary {
+  color: white;
+  background-color: darkred;
+  border: none;
+  border-radius: .3em;
+  font-weight: bold;
+  padding: .5em;
+}
+
+.btn-primary:hover {
+  background-color: red;
+}
+
+.venue-items {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.venue-item {
+  margin: 30px;
+}
+
+.venue-item-title {
+  display: block;
+  width: 100%;
+  text-align: center;
+  font-weight: bold;
+  font-size: 1.5em;
+  margin-bottom: 15px;
+}
+
+.venue-item-image {
+  height: 150px;
+}
+
+.venue-item-city {
+  display: block;
+  width: 100%;
+  text-align: center;
+  padding: 5px;
+}
+
+.band-items {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.band-item {
+  margin: 15px;
+}
+
+.band-name {
+  display: block;
+  text-align: center;
+}
+
+.band-genre {
+  display: block;
+  text-align: center;
+}
+/*# sourceMappingURL=main.css.map */
