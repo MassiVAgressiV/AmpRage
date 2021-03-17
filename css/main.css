@@ -13,7 +13,6 @@ body {
   background-blend-mode: multiply;
   height: 14em;
   color: ivory;
-  position: relative;
 }
 
 .main-header .logo {
@@ -28,24 +27,20 @@ body {
   color: darkred;
 }
 
-.main-header img {
-  position: absolute;
-  top: 0;
-  right: 0;
-  margin: .2em;
+.main-header svg {
   display: none;
 }
 
 .main-nav {
-  text-align: center;
   font-size: 1.1em;
   font-weight: lighter;
   border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+  text-align: center;
 }
 
 .main-nav ul {
   margin-top: 0;
-  padding-top: 0.5em;
+  padding: 0.5em 0 0;
   margin-bottom: 0.5em;
 }
 
@@ -191,5 +186,15 @@ body {
 .band-genre {
   display: block;
   text-align: center;
+}
+
+@media only screen and (max-width: 395px) {
+  .main-header svg {
+    display: block;
+    padding: .25em;
+  }
+  .main-header ul {
+    display: none;
+  }
 }
 /*# sourceMappingURL=main.css.map */

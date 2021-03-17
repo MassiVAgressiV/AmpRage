@@ -15,7 +15,7 @@ body {
     background-blend-mode: multiply;
     height: 14em;
     color: ivory;
-    position: relative;
+    // position: relative;
 
     .logo {
         margin: 0;
@@ -29,24 +29,21 @@ body {
         }
     }
 
-    img {
-        position: absolute;
-        top: 0;
-        right: 0;
-        margin: .2em;
+    svg {
+        // position: absolute;
         display: none;
     }
 }
 
 .main-nav {
-    text-align: center;
     font-size: 1.1em;
     font-weight: lighter;
     border-bottom: 1px solid $light-gray;
+    text-align: center;
     
     ul {
         margin-top: 0;
-        padding-top: 0.5em;
+        padding: 0.5em 0 0;
         margin-bottom: 0.5em;
     }
     li {
@@ -183,4 +180,17 @@ body {
 .band-genre {
     display: block;
     text-align: center;
+}
+
+@media only screen and (max-width: 395px) {
+    .main-header {
+        svg {
+            display: block;
+            padding: .25em;
+        }
+
+        ul {
+            display: none;
+        }
+    }
 }
